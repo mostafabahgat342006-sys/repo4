@@ -78,6 +78,14 @@ internal class Program
 
         Console.WriteLine("---------------------------------");
 
+        string genreText2 = "Science";
+
+        Genre genre3 = Enum.Parse<Genre>(genreText2);
+
+        Console.WriteLine(genre3);
+
+        Console.WriteLine("---------------------------------");
+
 
 
 
