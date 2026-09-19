@@ -51,6 +51,15 @@ internal class Program
 
         Console.WriteLine("---------------------------------");
 
+        // must do casting from Genre to int 
+        Console.WriteLine( (int) Genre.Fiction );
+        Console.WriteLine( (int) Genre.NonFiction );
+        Console.WriteLine( (int) Genre.Science );
+
+        Console.WriteLine("---------------------------------"); 
+
+
+
 
 
 
