@@ -56,7 +56,21 @@ internal class Program
         Console.WriteLine( (int) Genre.NonFiction );
         Console.WriteLine( (int) Genre.Science );
 
-        Console.WriteLine("---------------------------------"); 
+        Console.WriteLine("---------------------------------");
+
+
+        //  0 → Fiction
+        //  1 → NonFiction
+        //  2 → Science
+
+        int genreNumber = 1;
+        Genre genre = (Genre)genreNumber;
+
+        Console.WriteLine(genre);
+
+        Console.WriteLine("---------------------------------");
+
+
 
 
 
