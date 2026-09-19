@@ -86,7 +86,22 @@ internal class Program
 
         Console.WriteLine("---------------------------------");
 
+        string genreText3 = "Mystery";
 
+      
+
+        if (Enum.TryParse<Genre>(genreText3 ,out genre))
+        {
+            Console.WriteLine(genre);
+        }
+        else
+        {
+            Console.WriteLine("Unknown genre");
+        }
+
+        //  Output: Unknown genre -> because Mystery not in enum Genre
+
+        Console.WriteLine("---------------------------------");
 
 
 
