@@ -6,6 +6,9 @@ internal class Program
     {
         private string password = "secret";
         internal int copiesInStock = 5;
+        public string Title;
+
+
     }
 
     static void Main(string[] args)
@@ -21,6 +24,17 @@ internal class Program
         Console.WriteLine(b2.copiesInStock);
 
         Console.WriteLine("---------------------------------");
+
+        Book b3 = new Book();
+
+        b3.Title = "Clean Code";
+
+        Console.WriteLine(b3.Title);
+
+        Console.WriteLine("---------------------------------");
+
+
+
 
 
 
