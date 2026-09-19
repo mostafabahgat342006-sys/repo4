@@ -70,7 +70,13 @@ internal class Program
 
         Console.WriteLine("---------------------------------");
 
+        Genre genre2 = Genre.Fiction;
 
+        string genreText = genre2.ToString();
+
+        Console.WriteLine(genreText);
+
+        Console.WriteLine("---------------------------------");
 
 
 
